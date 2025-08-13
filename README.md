@@ -39,4 +39,4 @@ This project was an assignment for CSIT242-Mobile Application Development in Uni
 
 <h3>Demonstration Video</h3>
 
-[![Video Label](http://img.youtube.com/vi/bXL_4LL1e44/1.jpg)](https://youtu.be/bXL_4LL1e44)
+[![Video Label](http://img.youtube.com/AybpztBGGn8/1.jpg)](https://youtu.be/AybpztBGGn8)

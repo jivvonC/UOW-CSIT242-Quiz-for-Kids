@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/greenbackground"
+    tools:context=".Instructions">
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="362dp"
+        android:layout_height="714dp"
+        android:layout_marginStart="15dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginBottom="77dp"
+        android:fontFamily="@font/bagel"
+        android:text="There are two types of games on this application.\n The animals game is a game of guessing the animals name by looking at a photo.
+\n You can type in your answer. \n The Cartoons game is a game of guessing the cartoon character's name by looking at a photo.\n
+This game is a multiple choice, you can choose from 3 choices. \n All quiz areas are 4 quizzes each and you will earn 3 points for getting 1 right and lose 1point for wrong answers.
+\n The total scores can be checked on the scoreboard menu."
+        android:textAlignment="center"
+        android:textColor="@color/orange"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:lineHeight="40dp" />
+
+    <android.widget.Button
+        android:id="@+id/backbtn"
+        android:layout_width="146dp"
+        android:layout_height="48dp"
+        android:layout_marginStart="123dp"
+        android:layout_marginTop="13dp"
+        android:layout_marginEnd="124dp"
+        android:layout_marginBottom="16dp"
+        android:background="@color/orange"
+        android:text="back to menu"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView3" />
+</androidx.constraintlayout.widget.ConstraintLayout>

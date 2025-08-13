@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/greenbackground"
+    tools:context=".Accounts">
+
+    <android.widget.Button
+        android:id="@+id/logoutBtn"
+        android:layout_width="160dp"
+        android:layout_height="48dp"
+        android:layout_marginStart="116dp"
+        android:layout_marginEnd="117dp"
+        android:layout_marginBottom="150dp"
+        android:background="@color/orange"
+        android:text="log out"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="1.0" />
+
+    <android.widget.Button
+        android:id="@+id/chgPwbtn"
+        android:layout_width="160dp"
+        android:layout_height="48dp"
+        android:layout_marginStart="116dp"
+        android:layout_marginEnd="117dp"
+        android:layout_marginBottom="80dp"
+        android:background="@color/orange"
+        android:text="Change Password"
+        app:layout_constraintBottom_toTopOf="@+id/logoutBtn"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="49dp"
+        android:layout_marginTop="197dp"
+        android:layout_marginEnd="49dp"
+        android:layout_marginBottom="537dp"
+        android:fontFamily="@font/bagel"
+        android:text="Accounts"
+        android:textColor="#F4B352"
+        android:textSize="40sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="1.0" />
+
+    <EditText
+        android:id="@+id/newpw"
+        android:layout_width="211dp"
+        android:layout_height="49dp"
+        android:layout_marginStart="91dp"
+        android:layout_marginTop="116dp"
+        android:layout_marginEnd="91dp"
+        android:layout_marginBottom="44dp"
+        android:ems="10"
+        android:hint="New password"
+        android:inputType="textPassword"
+        app:layout_constraintBottom_toTopOf="@+id/chgPwbtn"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView"
+        app:layout_constraintVertical_bias="0.259" />
+</androidx.constraintlayout.widget.ConstraintLayout>

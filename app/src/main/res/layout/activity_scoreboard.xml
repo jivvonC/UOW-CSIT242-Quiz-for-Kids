@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/mainLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/greenbackground"
+    android:padding="16dp">
+
+    <TextView
+        android:layout_width="360dp"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/bagel"
+        android:text="Scoreboard"
+        android:textAlignment="center"
+        android:textColor="@color/orange"
+        android:textSize="40sp" />
+
+    <TextView
+        android:id="@+id/scoreSummary"
+        android:layout_width="360dp"
+        android:layout_height="65dp"
+        android:fontFamily="@font/bagel"
+        android:padding="5dp"
+        android:text="Username,you have X points in total!"
+        android:textAlignment="center"
+        android:textColor="@color/orange"
+        android:textSize="20sp" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="56dp"
+        android:orientation="horizontal">
+
+        <Spinner
+            android:id="@+id/sortSpinner"
+            android:layout_width="wrap_content"
+            android:layout_height="56dp"
+            android:entries="@array/sort_options" />
+
+
+        <TextView
+            android:id="@+id/noRecordText"
+            android:layout_width="249dp"
+            android:layout_height="match_parent"
+            android:fontFamily="@font/bagel"
+            android:gravity="center"
+            android:padding="10dp"
+            android:visibility="gone"
+            android:text="No record found"
+            android:textColor="@color/orange"
+            android:textSize="20sp" />
+
+    </LinearLayout>
+
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/attemptsRecyclerView"
+        android:layout_width="match_parent"
+        android:layout_height="627dp"
+        android:layout_weight="1" />
+
+</LinearLayout>

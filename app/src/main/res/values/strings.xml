@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Quiz for Kids</string>
+
+    <string-array name="sort_options">
+        <item>Sort by Date</item>
+        <item>Sort by Quiz Area</item>
+    </string-array>
+</resources>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<alpha xmlns:android="http://schemas.android.com/apk/res/android"
+    android:fromAlpha="0.0"
+    android:toAlpha="1.0"
+    android:duration="1000"
+    android:repeatCount="0"
+    />
+
+    <!-- fromAlpha가 투명도 조절하는거 그래서 x나 y scale로 사이즈는 안건들이고
+    fromAlpha=0.0완전히 투명에서 1.0 완전히 불투명으로 변화하기 > fade in
+    reverse로 fade out도 구현-->

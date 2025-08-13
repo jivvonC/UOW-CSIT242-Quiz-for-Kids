@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<scale xmlns:android="http://schemas.android.com/apk/res/android"
+    android:fromXScale="0.0"
+    android:toXScale="1.0"
+    android:fromYScale="0.0"
+    android:toYScale="1.0"
+    android:pivotX="50%"
+    android:pivotY="50%"
+    android:duration="1000"
+    android:repeatCount="0"
+    />
+
+    <!-- 원래 x 사이즈 1.0 y사이즈 1.0부터 x 사이즈 0.0, y사이즈 0.0으로
+     pivotX,pivotY가 둘 다 50%로 설정해야 중앙부터 커졌다 작아졌다-->
